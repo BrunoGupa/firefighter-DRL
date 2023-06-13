@@ -1,0 +1,28 @@
+2023-03-21 12:54:28,751 INFO    MainThread:37679 [wandb_setup.py:_flush():76] Configure stats pid to 37679
+2023-03-21 12:54:28,752 INFO    MainThread:37679 [wandb_setup.py:_flush():76] Loading settings from /home/bruno/.config/wandb/settings
+2023-03-21 12:54:28,752 INFO    MainThread:37679 [wandb_setup.py:_flush():76] Loading settings from /home/bruno/Documents/Firefighter_RL/Solver_Firefighter/wandb/settings
+2023-03-21 12:54:28,752 INFO    MainThread:37679 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-03-21 12:54:28,752 INFO    MainThread:37679 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-03-21 12:54:28,752 INFO    MainThread:37679 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'main.py', 'program': '/home/bruno/Documents/Firefighter_RL/Solver_Firefighter/main.py'}
+2023-03-21 12:54:28,752 INFO    MainThread:37679 [wandb_init.py:_log_setup():506] Logging user logs to /home/bruno/Documents/Firefighter_RL/Solver_Firefighter/wandb/run-20230321_125428-qdmq7hv7/logs/debug.log
+2023-03-21 12:54:28,752 INFO    MainThread:37679 [wandb_init.py:_log_setup():507] Logging internal logs to /home/bruno/Documents/Firefighter_RL/Solver_Firefighter/wandb/run-20230321_125428-qdmq7hv7/logs/debug-internal.log
+2023-03-21 12:54:28,752 INFO    MainThread:37679 [wandb_init.py:_jupyter_setup():452] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7fdf08345370>
+2023-03-21 12:54:28,752 INFO    MainThread:37679 [wandb_init.py:init():546] calling init triggers
+2023-03-21 12:54:28,752 INFO    MainThread:37679 [wandb_init.py:init():552] wandb.init called with sweep_config: {}
+config: {'nrows': 10, 'ncols': 10, 'pos_bull': None, 't_move': 0.025, 't_shoot': 0.05, 't_any': 0.025, 'name_model': 'PPO', 'total_proces': 16, 'steps_threshold': 10000000, 'env_seed': 100, 'name_reward': 'NumTreesReward_normalized', 'obs_wrapper': 'ObservationOneHotWrapper', 'policy_type': 'MultiInputPolicy'}
+2023-03-21 12:54:28,752 INFO    MainThread:37679 [wandb_init.py:init():602] starting backend
+2023-03-21 12:54:28,752 INFO    MainThread:37679 [wandb_init.py:init():606] setting up manager
+2023-03-21 12:54:28,754 INFO    MainThread:37679 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-03-21 12:54:28,756 INFO    MainThread:37679 [wandb_init.py:init():613] backend started and connected
+2023-03-21 12:54:28,767 INFO    MainThread:37679 [wandb_run.py:_label_probe_notebook():1204] probe notebook
+2023-03-21 12:54:28,767 INFO    MainThread:37679 [wandb_run.py:_label_probe_notebook():1214] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2023-03-21 12:54:28,767 INFO    MainThread:37679 [wandb_init.py:init():701] updated telemetry
+2023-03-21 12:54:28,768 INFO    MainThread:37679 [wandb_init.py:init():741] communicating run to backend with 60.0 second timeout
+2023-03-21 12:54:29,028 INFO    MainThread:37679 [wandb_run.py:_on_init():2133] communicating current version
+2023-03-21 12:54:29,253 INFO    MainThread:37679 [wandb_run.py:_on_init():2142] got version response 
+2023-03-21 12:54:29,253 INFO    MainThread:37679 [wandb_init.py:init():789] starting run threads in backend
+2023-03-21 12:54:34,656 INFO    MainThread:37679 [wandb_run.py:_console_start():2114] atexit reg
+2023-03-21 12:54:34,656 INFO    MainThread:37679 [wandb_run.py:_redirect():1969] redirect: SettingsConsole.WRAP_RAW
+2023-03-21 12:54:34,657 INFO    MainThread:37679 [wandb_run.py:_redirect():2034] Wrapping output streams.
+2023-03-21 12:54:34,657 INFO    MainThread:37679 [wandb_run.py:_redirect():2059] Redirects installed.
+2023-03-21 12:54:34,657 INFO    MainThread:37679 [wandb_init.py:init():831] run started, returning control to user process

@@ -1,0 +1,11 @@
+
+wandb: WARNING When using several event log directories, please call `wandb.tensorboard.patch(root_logdir="...")` before `wandb.init`
+Using cuda device
+Logging to runs/wsp1ce8z/PPO_1
+------------------------------
+| time/              |       |
+|    fps             | 2715  |
+|    iterations      | 1     |
+|    time_elapsed    | 6     |
+|    total_timesteps | 16384 |
+------------------------------

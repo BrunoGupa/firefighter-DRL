@@ -1,0 +1,136 @@
+2023-04-24 22:35:44,775 INFO    StreamThr :6385 [internal.py:wandb_internal():87] W&B internal server running at pid: 6385, started at: 2023-04-24 22:35:44.774007
+2023-04-24 22:35:44,779 DEBUG   HandlerThread:6385 [handler.py:handle_request():144] handle_request: status
+2023-04-24 22:35:44,801 INFO    WriterThread:6385 [datastore.py:open_for_write():85] open: /home/bruno/Documents/Firefighter_RL/Solver_Firefighter/wandb/run-20230424_223544-lj74c7nk/run-lj74c7nk.wandb
+2023-04-24 22:35:44,802 DEBUG   SenderThread:6385 [sender.py:send():336] send: header
+2023-04-24 22:35:44,803 DEBUG   SenderThread:6385 [sender.py:send():336] send: run
+2023-04-24 22:35:45,087 DEBUG   HandlerThread:6385 [handler.py:handle_request():144] handle_request: check_version
+2023-04-24 22:35:45,089 INFO    SenderThread:6385 [dir_watcher.py:__init__():219] watching files in: /home/bruno/Documents/Firefighter_RL/Solver_Firefighter/wandb/run-20230424_223544-lj74c7nk/files
+2023-04-24 22:35:45,089 INFO    SenderThread:6385 [sender.py:_start_run_threads():1078] run started: lj74c7nk with start time 1682397344.771686
+2023-04-24 22:35:45,089 DEBUG   SenderThread:6385 [sender.py:send_request():363] send_request: summary_record
+2023-04-24 22:35:45,089 INFO    SenderThread:6385 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-04-24 22:35:45,089 DEBUG   SenderThread:6385 [sender.py:send_request():363] send_request: check_version
+2023-04-24 22:35:45,325 DEBUG   HandlerThread:6385 [handler.py:handle_request():144] handle_request: run_start
+2023-04-24 22:35:45,333 DEBUG   HandlerThread:6385 [system_info.py:__init__():31] System info init
+2023-04-24 22:35:45,333 DEBUG   HandlerThread:6385 [system_info.py:__init__():46] System info init done
+2023-04-24 22:35:45,333 INFO    HandlerThread:6385 [system_monitor.py:start():183] Starting system monitor
+2023-04-24 22:35:45,333 INFO    SystemMonitor:6385 [system_monitor.py:_start():147] Starting system asset monitoring threads
+2023-04-24 22:35:45,333 INFO    SystemMonitor:6385 [interfaces.py:start():187] Started cpu monitoring
+2023-04-24 22:35:45,334 INFO    HandlerThread:6385 [system_monitor.py:probe():204] Collecting system info
+2023-04-24 22:35:45,334 INFO    SystemMonitor:6385 [interfaces.py:start():187] Started disk monitoring
+2023-04-24 22:35:45,335 INFO    SystemMonitor:6385 [interfaces.py:start():187] Started gpu monitoring
+2023-04-24 22:35:45,335 INFO    SystemMonitor:6385 [interfaces.py:start():187] Started memory monitoring
+2023-04-24 22:35:45,336 INFO    SystemMonitor:6385 [interfaces.py:start():187] Started network monitoring
+2023-04-24 22:35:45,342 ERROR   gpu       :6385 [interfaces.py:monitor():141] Failed to sample metric: Not Supported
+2023-04-24 22:35:45,342 ERROR   gpu       :6385 [interfaces.py:monitor():141] Failed to sample metric: Not Supported
+2023-04-24 22:35:45,382 DEBUG   HandlerThread:6385 [system_info.py:probe():195] Probing system
+2023-04-24 22:35:45,387 DEBUG   HandlerThread:6385 [git.py:repo():40] git repository is invalid
+2023-04-24 22:35:45,387 DEBUG   HandlerThread:6385 [system_info.py:probe():240] Probing system done
+2023-04-24 22:35:45,387 DEBUG   HandlerThread:6385 [system_monitor.py:probe():213] {'os': 'Linux-5.15.0-69-generic-x86_64-with-glibc2.31', 'python': '3.9.7', 'heartbeatAt': '2023-04-25T04:35:45.382485', 'startedAt': '2023-04-25T04:35:44.758700', 'docker': None, 'cuda': None, 'args': None, 'state': 'running', 'program': '/home/bruno/Documents/Firefighter_RL/Solver_Firefighter/main.py', 'codePath': 'main.py', 'host': 'bruno-G3-3779', 'username': 'bruno', 'executable': '/home/bruno/miniconda3/envs/DRL_9/bin/python', 'cpu_count': 6, 'cpu_count_logical': 12, 'cpu_freq': {'current': 2500.6055, 'min': 800.0, 'max': 4100.0}, 'cpu_freq_per_core': [{'current': 2200.0, 'min': 800.0, 'max': 4100.0}, {'current': 3454.152, 'min': 800.0, 'max': 4100.0}, {'current': 2200.0, 'min': 800.0, 'max': 4100.0}, {'current': 2200.0, 'min': 800.0, 'max': 4100.0}, {'current': 2200.0, 'min': 800.0, 'max': 4100.0}, {'current': 3487.464, 'min': 800.0, 'max': 4100.0}, {'current': 3487.466, 'min': 800.0, 'max': 4100.0}, {'current': 2200.0, 'min': 800.0, 'max': 4100.0}, {'current': 2200.0, 'min': 800.0, 'max': 4100.0}, {'current': 2200.0, 'min': 800.0, 'max': 4100.0}, {'current': 2200.0, 'min': 800.0, 'max': 4100.0}, {'current': 2200.0, 'min': 800.0, 'max': 4100.0}], 'disk': {'total': 116.31898498535156, 'used': 96.68684768676758}, 'gpu': 'NVIDIA GeForce GTX 1050 Ti', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce GTX 1050 Ti', 'memory_total': 4236312576}], 'memory': {'total': 15.484298706054688}}
+2023-04-24 22:35:45,387 INFO    HandlerThread:6385 [system_monitor.py:probe():214] Finished collecting system info
+2023-04-24 22:35:45,387 INFO    HandlerThread:6385 [system_monitor.py:probe():217] Publishing system info
+2023-04-24 22:35:45,387 DEBUG   HandlerThread:6385 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-04-24 22:35:45,388 DEBUG   HandlerThread:6385 [system_info.py:_save_pip():67] Saving pip packages done
+2023-04-24 22:35:45,388 DEBUG   HandlerThread:6385 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-04-24 22:35:46,091 INFO    Thread-13 :6385 [dir_watcher.py:_on_file_created():278] file/dir created: /home/bruno/Documents/Firefighter_RL/Solver_Firefighter/wandb/run-20230424_223544-lj74c7nk/files/wandb-summary.json
+2023-04-24 22:35:46,093 INFO    Thread-13 :6385 [dir_watcher.py:_on_file_created():278] file/dir created: /home/bruno/Documents/Firefighter_RL/Solver_Firefighter/wandb/run-20230424_223544-lj74c7nk/files/conda-environment.yaml
+2023-04-24 22:35:46,093 INFO    Thread-13 :6385 [dir_watcher.py:_on_file_created():278] file/dir created: /home/bruno/Documents/Firefighter_RL/Solver_Firefighter/wandb/run-20230424_223544-lj74c7nk/files/requirements.txt
+2023-04-24 22:35:47,342 ERROR   gpu       :6385 [interfaces.py:monitor():141] Failed to sample metric: Not Supported
+2023-04-24 22:35:47,343 ERROR   gpu       :6385 [interfaces.py:monitor():141] Failed to sample metric: Not Supported
+2023-04-24 22:35:49,343 ERROR   gpu       :6385 [interfaces.py:monitor():141] Failed to sample metric: Not Supported
+2023-04-24 22:35:49,343 ERROR   gpu       :6385 [interfaces.py:monitor():141] Failed to sample metric: Not Supported
+2023-04-24 22:35:49,682 DEBUG   HandlerThread:6385 [system_info.py:_save_conda():86] Saving conda packages done
+2023-04-24 22:35:49,683 DEBUG   HandlerThread:6385 [system_info.py:_save_code():89] Saving code
+2023-04-24 22:35:49,683 DEBUG   HandlerThread:6385 [system_info.py:_save_code():110] Saving code done
+2023-04-24 22:35:49,684 INFO    HandlerThread:6385 [system_monitor.py:probe():219] Finished publishing system info
+2023-04-24 22:35:49,692 DEBUG   SenderThread:6385 [sender.py:send():336] send: files
+2023-04-24 22:35:49,692 INFO    SenderThread:6385 [sender.py:_save_file():1332] saving file wandb-metadata.json with policy now
+2023-04-24 22:35:49,692 INFO    SenderThread:6385 [sender.py:_save_file():1332] saving file code/main.py with policy now
+2023-04-24 22:35:49,700 DEBUG   HandlerThread:6385 [handler.py:handle_request():144] handle_request: stop_status
+2023-04-24 22:35:49,701 DEBUG   SenderThread:6385 [sender.py:send_request():363] send_request: stop_status
+2023-04-24 22:35:49,826 DEBUG   SenderThread:6385 [sender.py:send():336] send: telemetry
+2023-04-24 22:35:49,827 DEBUG   HandlerThread:6385 [handler.py:handle_request():144] handle_request: status_report
+2023-04-24 22:35:50,091 INFO    Thread-13 :6385 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/bruno/Documents/Firefighter_RL/Solver_Firefighter/wandb/run-20230424_223544-lj74c7nk/files/conda-environment.yaml
+2023-04-24 22:35:50,091 INFO    Thread-13 :6385 [dir_watcher.py:_on_file_created():278] file/dir created: /home/bruno/Documents/Firefighter_RL/Solver_Firefighter/wandb/run-20230424_223544-lj74c7nk/files/output.log
+2023-04-24 22:35:50,091 INFO    Thread-13 :6385 [dir_watcher.py:_on_file_created():278] file/dir created: /home/bruno/Documents/Firefighter_RL/Solver_Firefighter/wandb/run-20230424_223544-lj74c7nk/files/code/main.py
+2023-04-24 22:35:50,091 INFO    Thread-13 :6385 [dir_watcher.py:_on_file_created():278] file/dir created: /home/bruno/Documents/Firefighter_RL/Solver_Firefighter/wandb/run-20230424_223544-lj74c7nk/files/wandb-metadata.json
+2023-04-24 22:35:50,091 INFO    Thread-13 :6385 [dir_watcher.py:_on_file_created():278] file/dir created: /home/bruno/Documents/Firefighter_RL/Solver_Firefighter/wandb/run-20230424_223544-lj74c7nk/files/code
+2023-04-24 22:35:50,303 INFO    wandb-upload_1:6385 [upload_job.py:push():138] Uploaded file /tmp/tmpddq5t4a4wandb/lq0jgs9h-code/main.py
+2023-04-24 22:35:50,303 INFO    wandb-upload_0:6385 [upload_job.py:push():138] Uploaded file /tmp/tmpddq5t4a4wandb/ijqudahz-wandb-metadata.json
+2023-04-24 22:35:51,344 ERROR   gpu       :6385 [interfaces.py:monitor():141] Failed to sample metric: Not Supported
+2023-04-24 22:35:51,344 ERROR   gpu       :6385 [interfaces.py:monitor():141] Failed to sample metric: Not Supported
+2023-04-24 22:35:52,083 DEBUG   SenderThread:6385 [sender.py:send():336] send: telemetry
+2023-04-24 22:35:52,091 INFO    Thread-13 :6385 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/bruno/Documents/Firefighter_RL/Solver_Firefighter/wandb/run-20230424_223544-lj74c7nk/files/output.log
+2023-04-24 22:35:52,124 INFO    HandlerThread:6385 [handler.py:handle_tbrecord():747] handling tbrecord: tbrecord {
+  log_dir: "runs/lj74c7nk/PPO_1"
+  save: true
+}
+control {
+  relay_id: "d070d18d1b0c472caeaf439a2c62b377"
+}
+_info {
+  stream_id: "lj74c7nk"
+}
+
+2023-04-24 22:35:52,125 DEBUG   HandlerThread:6385 [config_util.py:dict_from_config_file():103] no default config file found in config-defaults.yaml
+2023-04-24 22:35:52,210 DEBUG   SenderThread:6385 [sender.py:send():336] send: tbrecord
+2023-04-24 22:35:52,210 DEBUG   SenderThread:6385 [sender.py:send():336] send: config
+2023-04-24 22:35:53,359 ERROR   gpu       :6385 [interfaces.py:monitor():141] Failed to sample metric: Not Supported
+2023-04-24 22:35:53,359 ERROR   gpu       :6385 [interfaces.py:monitor():141] Failed to sample metric: Not Supported
+2023-04-24 22:35:53,949 DEBUG   SenderThread:6385 [sender.py:send():336] send: files
+2023-04-24 22:35:53,949 INFO    SenderThread:6385 [sender.py:_save_file():1332] saving file events.out.tfevents.1682397352.bruno-G3-3779.6356.0 with policy live
+2023-04-24 22:35:54,094 INFO    Thread-13 :6385 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/bruno/Documents/Firefighter_RL/Solver_Firefighter/wandb/run-20230424_223544-lj74c7nk/files/output.log
+2023-04-24 22:35:54,094 INFO    Thread-13 :6385 [dir_watcher.py:_on_file_created():278] file/dir created: /home/bruno/Documents/Firefighter_RL/Solver_Firefighter/wandb/run-20230424_223544-lj74c7nk/files/events.out.tfevents.1682397352.bruno-G3-3779.6356.0
+2023-04-24 22:35:54,911 INFO    wandb-upload_1:6385 [upload_job.py:push():138] Uploaded file /tmp/tmpddq5t4a4wandb/dtlw2wor-events.out.tfevents.1682397352.bruno-G3-3779.6356.0
+2023-04-24 22:35:54,950 DEBUG   HandlerThread:6385 [handler.py:handle_request():144] handle_request: status_report
+2023-04-24 22:35:55,361 ERROR   gpu       :6385 [interfaces.py:monitor():141] Failed to sample metric: Not Supported
+2023-04-24 22:35:55,361 ERROR   gpu       :6385 [interfaces.py:monitor():141] Failed to sample metric: Not Supported
+2023-04-24 22:35:57,362 ERROR   gpu       :6385 [interfaces.py:monitor():141] Failed to sample metric: Not Supported
+2023-04-24 22:35:57,362 ERROR   gpu       :6385 [interfaces.py:monitor():141] Failed to sample metric: Not Supported
+2023-04-24 22:35:59,363 ERROR   gpu       :6385 [interfaces.py:monitor():141] Failed to sample metric: Not Supported
+2023-04-24 22:35:59,363 ERROR   gpu       :6385 [interfaces.py:monitor():141] Failed to sample metric: Not Supported
+2023-04-24 22:35:59,951 DEBUG   HandlerThread:6385 [handler.py:handle_request():144] handle_request: status_report
+2023-04-24 22:36:01,365 ERROR   gpu       :6385 [interfaces.py:monitor():141] Failed to sample metric: Not Supported
+2023-04-24 22:36:01,365 ERROR   gpu       :6385 [interfaces.py:monitor():141] Failed to sample metric: Not Supported
+2023-04-24 22:36:02,096 INFO    Thread-13 :6385 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/bruno/Documents/Firefighter_RL/Solver_Firefighter/wandb/run-20230424_223544-lj74c7nk/files/output.log
+2023-04-24 22:36:02,096 INFO    Thread-13 :6385 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/bruno/Documents/Firefighter_RL/Solver_Firefighter/wandb/run-20230424_223544-lj74c7nk/files/events.out.tfevents.1682397352.bruno-G3-3779.6356.0
+2023-04-24 22:36:03,366 ERROR   gpu       :6385 [interfaces.py:monitor():141] Failed to sample metric: Not Supported
+2023-04-24 22:36:03,366 ERROR   gpu       :6385 [interfaces.py:monitor():141] Failed to sample metric: Not Supported
+2023-04-24 22:36:04,698 DEBUG   HandlerThread:6385 [handler.py:handle_request():144] handle_request: stop_status
+2023-04-24 22:36:04,699 DEBUG   SenderThread:6385 [sender.py:send_request():363] send_request: stop_status
+2023-04-24 22:36:05,367 ERROR   gpu       :6385 [interfaces.py:monitor():141] Failed to sample metric: Not Supported
+2023-04-24 22:36:05,367 ERROR   gpu       :6385 [interfaces.py:monitor():141] Failed to sample metric: Not Supported
+2023-04-24 22:36:05,824 DEBUG   HandlerThread:6385 [handler.py:handle_request():144] handle_request: status_report
+2023-04-24 22:36:07,368 ERROR   gpu       :6385 [interfaces.py:monitor():141] Failed to sample metric: Not Supported
+2023-04-24 22:36:07,369 ERROR   gpu       :6385 [interfaces.py:monitor():141] Failed to sample metric: Not Supported
+2023-04-24 22:36:09,370 ERROR   gpu       :6385 [interfaces.py:monitor():141] Failed to sample metric: Not Supported
+2023-04-24 22:36:09,370 ERROR   gpu       :6385 [interfaces.py:monitor():141] Failed to sample metric: Not Supported
+2023-04-24 22:36:10,825 DEBUG   HandlerThread:6385 [handler.py:handle_request():144] handle_request: status_report
+2023-04-24 22:36:11,371 ERROR   gpu       :6385 [interfaces.py:monitor():141] Failed to sample metric: Not Supported
+2023-04-24 22:36:11,371 ERROR   gpu       :6385 [interfaces.py:monitor():141] Failed to sample metric: Not Supported
+2023-04-24 22:36:13,372 ERROR   gpu       :6385 [interfaces.py:monitor():141] Failed to sample metric: Not Supported
+2023-04-24 22:36:13,372 ERROR   gpu       :6385 [interfaces.py:monitor():141] Failed to sample metric: Not Supported
+2023-04-24 22:36:15,406 ERROR   gpu       :6385 [interfaces.py:aggregate():158] Failed to serialize metric: division by zero
+2023-04-24 22:36:15,407 ERROR   gpu       :6385 [interfaces.py:monitor():141] Failed to sample metric: Not Supported
+2023-04-24 22:36:15,407 ERROR   gpu       :6385 [interfaces.py:monitor():141] Failed to sample metric: Not Supported
+2023-04-24 22:36:15,830 DEBUG   HandlerThread:6385 [handler.py:handle_request():144] handle_request: status_report
+2023-04-24 22:36:17,101 INFO    Thread-13 :6385 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/bruno/Documents/Firefighter_RL/Solver_Firefighter/wandb/run-20230424_223544-lj74c7nk/files/config.yaml
+2023-04-24 22:36:17,408 ERROR   gpu       :6385 [interfaces.py:monitor():141] Failed to sample metric: Not Supported
+2023-04-24 22:36:17,408 ERROR   gpu       :6385 [interfaces.py:monitor():141] Failed to sample metric: Not Supported
+2023-04-24 22:36:19,408 ERROR   gpu       :6385 [interfaces.py:monitor():141] Failed to sample metric: Not Supported
+2023-04-24 22:36:19,409 ERROR   gpu       :6385 [interfaces.py:monitor():141] Failed to sample metric: Not Supported
+2023-04-24 22:36:19,698 DEBUG   HandlerThread:6385 [handler.py:handle_request():144] handle_request: stop_status
+2023-04-24 22:36:19,699 DEBUG   SenderThread:6385 [sender.py:send_request():363] send_request: stop_status
+2023-04-24 22:36:21,409 ERROR   gpu       :6385 [interfaces.py:monitor():141] Failed to sample metric: Not Supported
+2023-04-24 22:36:21,409 ERROR   gpu       :6385 [interfaces.py:monitor():141] Failed to sample metric: Not Supported
+2023-04-24 22:36:21,818 DEBUG   HandlerThread:6385 [handler.py:handle_request():144] handle_request: status_report
+2023-04-24 22:36:23,410 ERROR   gpu       :6385 [interfaces.py:monitor():141] Failed to sample metric: Not Supported
+2023-04-24 22:36:23,410 ERROR   gpu       :6385 [interfaces.py:monitor():141] Failed to sample metric: Not Supported
+2023-04-24 22:36:25,351 ERROR   memory    :6385 [interfaces.py:monitor():141] Failed to sample metric: process no longer exists (pid=6356)
+2023-04-24 22:36:25,351 ERROR   memory    :6385 [interfaces.py:monitor():141] Failed to sample metric: process no longer exists (pid=6356)
+2023-04-24 22:36:25,354 ERROR   cpu       :6385 [interfaces.py:monitor():141] Failed to sample metric: process no longer exists (pid=6356)
+2023-04-24 22:36:25,355 ERROR   cpu       :6385 [interfaces.py:monitor():141] Failed to sample metric: process no longer exists (pid=6356)
+2023-04-24 22:36:25,411 ERROR   gpu       :6385 [interfaces.py:monitor():141] Failed to sample metric: Not Supported
+2023-04-24 22:36:25,411 ERROR   gpu       :6385 [interfaces.py:monitor():141] Failed to sample metric: Not Supported
+2023-04-24 22:36:25,823 WARNING StreamThr :6385 [internal.py:is_dead():415] Internal process exiting, parent pid 6356 disappeared
+2023-04-24 22:36:25,823 ERROR   StreamThr :6385 [internal.py:wandb_internal():153] Internal process shutdown.
+2023-04-24 22:36:26,488 INFO    MainThread:6385 [internal.py:handle_exit():77] Internal process exited
