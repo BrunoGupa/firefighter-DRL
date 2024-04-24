@@ -18,11 +18,6 @@ Below are GIFs showcasing instances with different velocities of the bulldozer c
     <img src="Solver_Firefighter/avatar-gifs/avatar-fire-master-6-b-1.gif" width="400">
 </div>
 
-1. ![GIF 1](Solver_Firefighter/avatar-gifs/avatar-fire-master-1-b-0.gif)
-2. ![GIF 2](Solver_Firefighter/avatar-gifs/avatar-fire-master-2-a-0.gif)
-3. ![GIF 3](Solver_Firefighter/avatar-gifs/avatar-fire-master-6-b-1.gif)
-   <!-- Add more GIFs as necessary -->
-
 ## Links
 
 - [Moving Firefighter Problem (MFP)](https://www.mdpi.com/2038212)
