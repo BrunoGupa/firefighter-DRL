@@ -6,7 +6,7 @@ In this repository, we train instances of the Bulldozer reinforcement learning e
 
 Below are GIFs showcasing instances with different velocities of the bulldozer containment and fire spread. When these hyperparameters are fixed, an agent is trained using the Proximal Policy Optimization (PPO) Deep Reinforcement Learning Algorithm to solve the instance by creating a containment strategy:
 
-<div style="text-align: center;">
+<div style="display: flex; justify-content: center;">
     <img src="Solver_Firefighter/avatar-gifs/avatar-fire-master-1-b-0.gif" width="600">
 </div>
 
