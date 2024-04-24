@@ -4,15 +4,9 @@ In this repository, we train instances of the Bulldozer reinforcement learning e
 
 ## Results
 
-Below are some GIFs showing instances that have been successfully solved:
-
-1. ![GIF 1](# Bulldozer RL Training with Stable Baselines
-
-In this repository, we train instances of the Bulldozer reinforcement learning environment using Stable Baselines. Our work focuses on fixing bugs in the original Bulldozer environment repository. After experimenting with various reward functions, we found that the episodic function works best for solving small instances.
-
-## Results
-
 Below are GIFs showcasing instances with different velocities of the bulldozer containment and fire spread. When these hyperparameters are fixed, an agent is trained using the Proximal Policy Optimization (PPO) Deep Reinforcement Learning Algorithm to solve the instance by creating a containment strategy:
+
+0. 1. <img src="Solver_Firefighter/avatar-gifs/avatar-fire-master-1-b-0.gif" width="300">
 
 1. ![GIF 1](Solver_Firefighter/avatar-gifs/avatar-fire-master-1-b-0.gif)
 2. ![GIF 2](Solver_Firefighter/avatar-gifs/avatar-fire-master-2-a-0.gif)
