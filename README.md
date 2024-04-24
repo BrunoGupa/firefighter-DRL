@@ -23,4 +23,4 @@ Below are GIFs showcasing instances with different velocities of the bulldozer c
 - [Moving Firefighter Problem (MFP)](https://www.mdpi.com/2038212)
 - [MFP Repository](https://github.com/BrunoGupa/MovingFirefighterProblem)
 - [Bulldozer Benchmark Repository](https://github.com/elbecerrasoto/gym-cellular-automata)
-For translating instances from the Moving Firefighter Problem (MFP) into the Bulldozer RL environment, please refer to our instance translator available [here](https://github.com/BrunoGupa/instance_translator).
+- For translating instances from the Moving Firefighter Problem (MFP) into the Bulldozer RL environment, please refer to our instance translator available [here](https://github.com/BrunoGupa/instance_translator).
